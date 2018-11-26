@@ -2,7 +2,7 @@ export class Blog {
     private title: string;
     private content: string;
 
-    constructor(title: string, content: number) {
+    constructor(title: string, content: string) {
         this.title = title;
         this.content = content;
     }

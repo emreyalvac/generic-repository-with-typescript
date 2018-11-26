@@ -1,0 +1,23 @@
+{
+  "name": "generic-repository-with-typescript",
+  "version": "1.0.0",
+  "description": "generic-repository-with-typescript",
+  "main": "workArea.js",
+  "scripts": {
+    "start": "tsc workArea.ts && nodemon workArea.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emreyalvac/generic-repository-with-typescript.git"
+  },
+  "author": "Emre YALVAÇ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emreyalvac/generic-repository-with-typescript/issues"
+  },
+  "homepage": "https://github.com/emreyalvac/generic-repository-with-typescript#readme",
+  "dependencies": {
+    "mongodb": "^3.1.10",
+    "nodemon": "latest"
+  }
+}
